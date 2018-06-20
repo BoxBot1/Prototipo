@@ -6,7 +6,7 @@ int echoPin2 = 9;
 int trigPin3 = 10;
 int echoPin3 = 11;
 int duracion, distancia;
-int Sensor1, Sensor2, Sensor3, Sensor4;
+int Sensor1, Sensor2, Sensor3;
 
 //La siguiente matriz representa el almacen, donde 0 siginifca casilla desocupada
 //y 1 significa casilla ocupada
@@ -40,7 +40,7 @@ void avanzar_hacia_adelante(){
   delay(300);
 }
 
-void giro_hacia la izquierda(){
+void giro_hacia_la_izquierda(){
   digitalWrite(LM1, LOW);
   digitalWrite(LM2, LOW);
   digitalWrite(RM1, HIGH);
