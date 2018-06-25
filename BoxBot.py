@@ -11,9 +11,6 @@ def Traer_caja():
 print("Conectando al serial")
 ser = serial.Serial(serial_port, serial_speed, timeout=1)
 
-def Traer_caja():
-	print("-")
-
 master = Tk()
 
 texto = Label(master, text = "BoxBot 1.0",height=1, width=15 , font="Times 40")
